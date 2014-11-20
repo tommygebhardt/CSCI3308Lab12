@@ -8,7 +8,7 @@ class CPU:
         return 1
 
     def getInfo(self):
-        print "CPU info:\n  Frequency: "+self.freq+"\n  Number of cores: "+self.coreNum
+        print "CPU info:\n  Frequency: "+str(self.freq)+"\n  Number of cores: "+(self.coreNum)
 
 class Memory:
     def __init__(self):
